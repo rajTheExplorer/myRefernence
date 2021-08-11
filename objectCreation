@@ -1,0 +1,26 @@
+class ars
+{
+	public static void king() {
+		System.out.println("its a king");
+	}
+	public void queen() {
+		System.out.println("its a queen");
+	}
+	public static void main(String[] args) {
+		king();
+		new ars().queen();
+		// ar.queen();
+		Ad.joker();
+		new Ad().ace();
+		// add.ace();
+	}
+}
+class Ad
+{
+	public static void joker() {
+		System.out.println("its a joker");
+	}
+	public void ace() {
+		System.out.println("its a ace");
+	}
+}
